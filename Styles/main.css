@@ -1,46 +1,10 @@
-
-/*CSS for the Every Page's Body Area*/
-body{
-	color: var(--primary-color); 
-	background-color: var(--bg-color); 
-	font-family: Roboto, sans-serif;
-}
-/*CSS for the Container Area on Index.Html*/
-#container{
-  margin-top: 100px;
-	text-align: center;
-	width: 450px;
-	height: 475px;
-}
-
-a:hover{
-  opacity: 0.7;
-}
-/*CSS for the Logo on Index.Html*/
-#logo{
-  width: 200px;
-	text-align: center
-  margin-bottom: -100px;
-}
-
-/*CSS for the build model block in Index.Html*/
-#build{
-	text-align: center;
-	display: inline-block;
-    padding: 0 10px;
-    background: gold !important;
-    line-height: 1.5;
-    font-size: .875rem;
-    color: grey !important;
-    vertical-align: middle;
-    white-space: nowrap;
     border-radius: 2px;
     text-transform: uppercase;
 }
 
 /*CSS for the  Enter Classes Button in Index.Html*/
 .buttonEnterClasses{
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, sans-serif !important;
   text-align: center;
   background-color: gold !important;
   color: grey !important;
@@ -195,9 +159,7 @@ input:checked + .slider:before {
   padding-bottom: 30px;
 }
 
-#settingsDiv {
-  padding-bottom: 30px;
-}
+
 
 #homeIcon {
   padding-right: 50px;
@@ -217,9 +179,9 @@ input:checked + .slider:before {
 
 /*Data Themes*/
 :root {
-    --primary-color: #222222;
-    --secondary-color: grey;
-    --bg-color: white;
+    --primary-color: #222222 !important;
+    --secondary-color: grey !important;
+    --bg-color: white !important;
 }
 
 
@@ -230,9 +192,9 @@ input:checked + .slider:before {
 }
 
 [data-theme="dark"] {
-    --primary-color: white;
-    --secondary-color: grey;
-    --bg-color: #222222;
+    --primary-color: white !important;
+    --secondary-color: grey !important;
+    --bg-color: #222222 !important;
 }
 
 [data-theme="gold"] {
@@ -282,12 +244,12 @@ input:checked + .slider:before {
 
 td {
     padding-right: 185px;
-    padding-top: 40px;
+    padding-top: 30px;
       }
 
 #times{
   text-align: left;
-  margin-left: 300px;
+  margin-left: 200px;
   font-size: 20px;
 
 }
@@ -326,24 +288,15 @@ td {
   display: inline-block;
 }
 
+/*Upload Container*/
+.upload{
+  margin-left: 420px !important;
+  font-size: 20px !important;
+  text-align: left !important;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*Calendar CSS*/
+#calendar{
+  text-align: centre !important;
+  margin-left: 220px !important;
+}
